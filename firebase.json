@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "site": "creative-director-hub",
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "supabase/**",
+      "README.md"
+    ]
+  }
+}

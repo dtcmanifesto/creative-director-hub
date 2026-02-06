@@ -1,0 +1,23 @@
+{
+  "name": "creative-director-hub",
+  "version": "1.0.0",
+  "description": "A real-time creative intelligence dashboard for DTC brand creative directors. Think Bloomberg terminal meets creative agency war room.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtcmanifesto/creative-director-hub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtcmanifesto/creative-director-hub/issues"
+  },
+  "homepage": "https://github.com/dtcmanifesto/creative-director-hub#readme",
+  "dependencies": {
+    "firebase-admin": "^13.6.1"
+  }
+}
