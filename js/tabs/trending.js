@@ -1,5 +1,5 @@
 // Trending Now Tab
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 import { formatDate, daysSince, getStatusClass } from '../utils/helpers.js';
 
 export async function initTrending(container) {

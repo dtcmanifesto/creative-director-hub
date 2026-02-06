@@ -1,5 +1,5 @@
 // Performance Tab - Winners Wall
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 import { formatCurrency, formatRoas, formatPercent, formatDate, daysSince, getStatusClass } from '../utils/helpers.js';
 
 let currentSort = { column: 'roas', ascending: false };

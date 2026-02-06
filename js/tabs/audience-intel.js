@@ -1,5 +1,5 @@
 // Audience Intel Tab
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 
 export async function initAudienceIntel(container) {
     container.innerHTML = `

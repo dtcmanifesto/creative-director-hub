@@ -1,5 +1,5 @@
 // Test Log & Learnings Tab
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 import { formatDate, getStatusClass } from '../utils/helpers.js';
 
 export async function initTestLog(container) {

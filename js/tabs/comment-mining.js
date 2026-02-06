@@ -1,5 +1,5 @@
 // Comment Mining Tab
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 import { formatDate } from '../utils/helpers.js';
 import { createBarChart, destroyChart } from '../utils/charts.js';
 

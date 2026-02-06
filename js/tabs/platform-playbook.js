@@ -1,5 +1,5 @@
 // Platform Playbook Tab
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 import { formatDate } from '../utils/helpers.js';
 
 const PLATFORMS = ['meta', 'tiktok', 'youtube'];

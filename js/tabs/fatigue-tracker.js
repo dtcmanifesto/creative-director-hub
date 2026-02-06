@@ -1,5 +1,5 @@
 // Fatigue Tracker Tab
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 import { formatCurrency, formatRoas, formatPercent, formatDate, daysSince, calculateFatigueScore, getFatigueStatus } from '../utils/helpers.js';
 import { createSparkline, destroyChart } from '../utils/charts.js';
 

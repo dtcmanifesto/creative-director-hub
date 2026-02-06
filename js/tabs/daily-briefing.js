@@ -1,5 +1,5 @@
 // Daily Briefing Tab - Landing Page
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 import { formatCurrency, formatRoas, formatPercent, formatDate, getFatigueStatus, calculateFatigueScore } from '../utils/helpers.js';
 
 export async function initDailyBriefing(container) {

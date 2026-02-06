@@ -1,5 +1,5 @@
 // Creative Mix Analysis Tab
-import { db } from '../supabase.js';
+import { db } from '../firebase.js';
 import { formatPercent } from '../utils/helpers.js';
 import { createDonutChart, createBarChart, destroyChart, CHART_PALETTE } from '../utils/charts.js';
 
